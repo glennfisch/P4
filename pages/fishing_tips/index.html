@@ -1,1 +1,71 @@
-<!-- Placeholder for Fishing Tips main page -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fishing Tips</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../../css/styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../../index.html">Fishing Knowledge</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="../../index.html">Home</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" id="fishingTipsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Fishing Tips
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="fishingTipsDropdown">
+                            <li><a class="dropdown-item" href="weather_conditions.html">Weather/Conditions</a></li>
+                            <li><a class="dropdown-item" href="bait_tackle.html">Bait/Tackle</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="../personal_fishing/index.html">Personal Fishing</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container my-5">
+        <h1 class="text-center">Fishing Tips</h1>
+        <p class="text-center">Discover tips to improve your fishing success, including the best weather conditions and the right bait and tackle to use.</p>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Weather & Conditions</h5>
+                        <p class="card-text">Learn about the best weather and seasonal conditions for fishing success.</p>
+                        <a href="weather_conditions.html" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Bait & Tackle</h5>
+                        <p class="card-text">Find out which baits and tackle work best for different fish and scenarios.</p>
+                        <a href="bait_tackle.html" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Fishing Knowledge. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
