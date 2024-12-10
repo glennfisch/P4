@@ -1,9 +1,11 @@
+/* DEVELOPER: GLENN FISCHER, IS117-005 FALL 2024*/
+
 body {
-    background-image: url('../images/imagehomepage.jpg'); /* Path to your background image */
-    background-size: cover; /* Ensures the image covers the entire background */
-    background-repeat: no-repeat; /* Prevents the image from repeating */
-    background-attachment: fixed; /* Makes the background stay fixed during scrolling */
-    background-position: center; /* Centers the image */
+    background-image: url('../images/imagehomepage.jpg'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center; 
 }
 
 html, body {
@@ -20,12 +22,42 @@ main {
     flex: 1;
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1; 
+}
+
 footer {
-    position: relative;
-    bottom: 0;
-    width: 100%;
-    background-color: #343a40;
+    width: 100%; 
+    background-color: #343a40; 
     color: white;
     text-align: center;
     padding: 10px 0;
+    position: relative;
+    margin-top: auto;
 }
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1; /* Ensures the main content takes up available space */
+}
+
+
